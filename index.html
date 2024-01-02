@@ -16,52 +16,99 @@
 
     <div class='container' id="searchDiv">
         <div class="row">
-            <div class="col">
-                <h2>Search a City</h2>
+            <div class="col-2">
+                <h4>Search a City</h4>
                 <input type="text" name="" id="citySearch">
                 <button id="searchButton">Search</button>
             </div>
-            <div class="col" id="currentWeather">
+            <div class="col-10" id="currentWeather">
                 <h2>Current Weather</h2>
+                <img id="currentIcon" src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
                 <p>Temperature: <span id="currentTemp"></span></p>
                 <p>Wind: <span id="currentWind"></span></p>
                 <p>Humidity: <span id="currentHum"></span></p>
             </div>
         </div>
         <div class="row">
-            <div class="col">
-                <ul id="searchHistory">
-                    <li></li>
+            <div class="col-2">
+                <ul class="list-group" id="searchHistory">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                    <li class="list-group-item">A fourth item</li>
+                    <li class="list-group-item">And a fifth one</li>
                 </ul>
             </div>
-            <div class="col">
+            <div class="col-10">
                 <div class="row" id="fivedayFC">
                     <h2>5 Day Forecast</h2>
-                    <div class="col" id="FCD1">
-                        <p>Temperature: <span id="FCD1Temp"></span></p>
-                        <p>Wind: <span id="FCD1Wind"></span></p>
-                        <p>Humidity: <span id="FCD1Hum"></span></p>
+                    <div class="row">
+                        <div class="col-sm-2 mb-3 mb-sm-0">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="col" id="FCD1">
+                                        <img id="FCD1icon" src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                                        <p>Temperature: <span id="FCD1Temp"></span></p>
+                                        <p>Wind: <span id="FCD1Wind"></span></p>
+                                        <p>Humidity: <span id="FCD1Hum"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="col" id="FCD2">
+                                        <img id="FCD2icon" src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                                        <p>Temperature: <span id="FCD2Temp"></span></p>
+                                        <p>Wind: <span id="FCD2Wind"></span></p>
+                                        <p>Humidity: <span id="FCD2Hum"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="col" id="FCD3">
+                                        <img id="FCD3icon" src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                                        <p>Temperature: <span id="FCD3Temp"></span></p>
+                                        <p>Wind: <span id="FCD3Wind"></span></p>
+                                        <p>Humidity: <span id="FCD3Hum"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="col" id="FCS4">
+                                        <img id="FCD4icon" src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                                        <p>Temperature: <span id="FCD4Temp"></span></p>
+                                        <p>Wind: <span id="FCD4Wind"></span></p>
+                                        <p>Humidity: <span id="FCD4Hum"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="col" id="FCD5">
+                                        <img id="FCD5icon" src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                                        <p>Temperature: <span id="FCD5Temp"></span></p>
+                                        <p>Wind: <span id="FCD5Wind"></span></p>
+                                        <p>Humidity: <span id="FCD5Hum"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col" id="FCD2">
-                        <p>Temperature: <span id="FCD2Temp"></span></p>
-                        <p>Wind: <span id="FCD2Wind"></span></p>
-                        <p>Humidity: <span id="FCD2Hum"></span></p>
-                    </div>
-                    <div class="col" id="FCD3">
-                        <p>Temperature: <span id="FCD3Temp"></span></p>
-                        <p>Wind: <span id="FCD3Wind"></span></p>
-                        <p>Humidity: <span id="FCD3Hum"></span></p>
-                    </div>
-                    <div class="col" id="FCS4">
-                        <p>Temperature: <span id="FCD4Temp"></span></p>
-                        <p>Wind: <span id="FCD4Wind"></span></p>
-                        <p>Humidity: <span id="FCD4Hum"></span></p>
-                    </div>
-                    <div class="col" id="FCD5">
-                        <p>Temperature: <span id="FCD5Temp"></span></p>
-                        <p>Wind: <span id="FCD5Wind"></span></p>
-                        <p>Humidity: <span id="FCD5Hum"></span></p>
-                    </div>
+
+
+
+
+
                 </div>
             </div>
         </div>
