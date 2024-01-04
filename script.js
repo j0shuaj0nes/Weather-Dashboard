@@ -72,6 +72,8 @@ function searchWeather(cityName) {
             document.querySelector('#FCD5Temp').textContent = `${res.list[39].main.temp} °C`
             document.querySelector('#FCD5Wind').textContent = `${res.list[39].wind.speed} m/s`
             document.querySelector('#FCD5Hum').textContent = `${res.list[39].main.humidity}%`
+
+            displayHistory()
         });
 }
 
