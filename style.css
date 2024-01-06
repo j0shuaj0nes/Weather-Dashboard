@@ -79,3 +79,30 @@ h2 {
     display: flex;
     margin-right: 30px;
 }
+
+#searchHistory li {
+  border-radius: 4px;
+    background-color: #36454F;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 2px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+#searchHistory li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  display: block;
+}
+
+#searchHistory li a:hover {
+  text-decoration: none;
+  color: #000000;
+  background-color: #33B5E5;
+}
